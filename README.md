@@ -46,7 +46,7 @@ curl "http://localhost:8080/api/ads?page=1&limit=10&sort_by=date&sort_order=desc
 
 
 ### Хостинг
-Приложение так же как минимум до 21.08.2025 доступно по ссылке http://62.133.61.149
+Приложение так же как минимум до 21.08.2025 доступно по адресу http://62.133.61.149
 
 ### Примеры запросов на хостинг
 
@@ -71,5 +71,5 @@ curl -X POST http://62.133.61.149/api/ads \
 ```
 ```bash
 # получение списка объявлений с пагинацией, сортировкой, фильтрацией
-curl "http://localhost:8080/api/ads?page=1&limit=10&sort_by=date&sort_order=desc&min_price=0&max_price=1000"
+curl "http://62.133.61.149/api/ads?page=1&limit=10&sort_by=date&sort_order=desc&min_price=0&max_price=1000"
 ```
